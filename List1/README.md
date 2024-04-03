@@ -177,4 +177,21 @@ Abaixo, as imagens originais e em seguida as imagens depois de aplicar o canny c
   <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item6/results/selected.jpg?raw=true" alt="Cannified" style="height: 7.5vw; width: 40vw;">
 </div>
 
+### Item 8
 
+Usando a função da questão 1, crie funções que apliquem filtros para calcular as imagens representando ∂f/∂x, ∂f/∂y e |∇f|. Em seguida, implemente o operador de Sobel usando estas imagens como entrada. Exiba cada um desses resultados para três imagens distintas.
+
+
+#### Resultados do Item 8
+
+<div>
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item8/results/building_compare.jpg?raw=true" alt="Building" style="height: 7.5vw; width: 40vw;">
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item8/results/square_compare.jpg?raw=true" alt="Square" style="height: 7.5vw; width: 40vw;">
+    <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item8/results/street_compare.jpg?raw=true" alt="Street" style="height: 7.5vw; width: 40vw;">
+</div>
+
+<div>
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item8/results/building_magnitude.jpg?raw=true" alt="Building Magnitude" style="height: 7.5vw; width: 13.33vw;">
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item8/results/square_magnitude.jpg?raw=true" alt="Square Magnitude" style="height: 7.5vw; width: 13.34vw;">
+    <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item8/results/street_magnitude.jpg?raw=true" alt="Street Magnitude" style="height: 7.5vw; width: 13.33vw;">
+</div>
