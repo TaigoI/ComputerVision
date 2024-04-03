@@ -104,7 +104,7 @@ BLUR\_6 = \begin{bmatrix}
 ```
 
 ```math
-$BLUR\_9 = \begin{bmatrix} 
+BLUR\_9 = \begin{bmatrix} 
  1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
  1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
  1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
