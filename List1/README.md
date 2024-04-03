@@ -162,3 +162,19 @@ Abaixo, as imagens originais e em seguida as imagens depois de aplicar denoise p
   <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item5/results/denoised.jpg?raw=true" alt="FTTed" style="height: 7.5vw; width: 40vw;">
 </div>
 
+### Item 6
+
+Aplique o detector de canny usando a função Canny() da OpenCV em uma ou mais imagens de sua escolha. Experimente variar cada um dos parâmetros threshold1, threshold2 e apertureSize. Explique com suas palavras a influência de cada parâmetro no resultado.
+
+#### Resultados do Item 6
+
+No canny, o threshold 1 é o limite onde iniciam as chamadas "Bordas fracas", o threshold 2 é o limite onde iniciam as chamadas "Bordas fortes". O apertureSize controla o tamanho do kernel para gerar o gradiente que é utilizado para detectar as bordas. Um apertureSize maior teoricamente diminui o efeito de ruído na detecção; na prática, para as imagens selecionadas, aumentar para um kernel 5x5 ou 7x7 só atrapalhou a detecção, a textura em partes mais detalhadas das imagens, como no chão da rua, começou a ser toda detectada como centenas de pequenas bordas, por isso, o valor escolhido para o apertureSize foi 3. Para a escolha do threshold 1 e do threshold 2, levei em consideração o quanto detalhe era retido nas bordas detectadas, sem que começasse a entrar ruído na forma de vários pequenos segmentos. O valor recomendado online de 86 para o 1 e 255 para o 2 (ou seja, não existem bordas fortes na imagem), não se adequou bem; Acabei escolhendo 100 como threshold 1 e 150 como threshold 2, por manter bem o detalhe, enquanto evita ruído demasiado.
+
+Abaixo, as imagens originais e em seguida as imagens depois de aplicar o canny com os parametros escolhidos.
+
+<div>
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item6/results/original.jpg?raw=true" alt="Original" style="height: 7.5vw; width: 40vw;">
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item6/results/selected.jpg?raw=true" alt="Cannified" style="height: 7.5vw; width: 40vw;">
+</div>
+
+
