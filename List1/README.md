@@ -146,3 +146,19 @@ Crie uma imagem I de dimensões 100 × 100 que contém um único valor não nulo
 #### Resultados do Item 4
 
 <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item4/results/compare.jpg?raw=true" alt="Tree" style="height: 15vw; width: 40vw;">
+
+### Item 5
+
+Pesquise e implemente um filtro para remoção de ruídos que não possa ser representado com convoluções.
+
+#### Resultados do Item 5
+
+O método de denoise através de FFT transforma a imagem em uma representação no domínio da frequência, que através do shift e a aplicação de threshold, elimina do sinal as frequências mais altas (ruído). Por se tratar de uma transformação do sinal baseada em frequência, não pode ser representado por abordagem convolucional.
+
+Abaixo, as imagens originais e em seguida as imagens depois de aplicar denoise por FFT.
+
+<div>
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item5/results/original.jpg?raw=true" alt="Original" style="height: 7.5vw; width: 40vw;">
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List1/Item5/results/denoised.jpg?raw=true" alt="FTTed" style="height: 7.5vw; width: 40vw;">
+</div>
+
