@@ -21,5 +21,6 @@ Abaixo, os resultados das questões
 
 ### Resultado do Item 3
 <div>
-  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List3/Item3/result.png?raw=true" alt="Copa do Nordeste" style="height: 400px; width:30vw;">
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List3/Item3/images/piscina.jpg?raw=true" alt="Copa do Nordeste" style="height: 300px; width:24vw;">
+  <img src="https://github.com/TaigoI/ComputerVision/blob/main/List3/Item3/result.png?raw=true" alt="Copa do Nordeste" style="height: 300px; width:24vw;">
 </div>
